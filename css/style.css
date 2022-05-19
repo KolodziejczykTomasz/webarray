@@ -1,0 +1,591 @@
+    @font-face {
+        font-family: MotivaSans;
+        src: url(../font/MotivaSansRegular.woff.ttf) format("woff");
+        src: url(../font/MotivaSansBlack.woff.ttf) format("woff") url(../font/MotivaSansExtraBold.ttf), url(../font/MotivaSansLight.woff.ttf)format("woff"), url(../font/MotivaSansMedium.woff.ttf)format("woff"), url(../font/MotivaSansRegular.woff.ttf)format("woff"), url(../font/MotivaSansThin.ttf), url(../font/MotivaSansBlack.woff.ttf)format("woff");
+        font-weight: bold 400 600 800;
+    }
+    
+    @media screen and (min-width: 576px) {
+        h1 {
+            font-size: 2.5rem;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1.75rem;
+        }
+        .mobile-standard-button-text-size {
+            font-size: 1.25rem;
+        }
+        .mobile-bigger-button-text-size {
+            font-size: 1.125rem;
+        }
+        .mobile-text-title {
+            font-size: 1.125rem;
+        }
+        .mobile-text-standard {
+            font-size: 1.25rem;
+        }
+        .mobile-text-small {
+            font-size: 0.875rem;
+        }
+        .container {
+            width: 567px;
+        }
+    }
+    
+    @media screen and (min-width: 1366px) {
+        h1 {
+            font-size: 5rem;
+        }
+        h2 {
+            font-size: 4rem;
+            font-weight: 800;
+        }
+        h3 {
+            font-size: 3rem;
+        }
+        .desktop-standard-button-text-size {
+            font-size: 1.75rem;
+        }
+        .desktop-bigger-button-text-size {
+            font-size: 2.25rem;
+        }
+        .desktop-text-title {
+            font-size: 2rem;
+        }
+        .desktop-text-standard {
+            font-size: 1.5rem;
+        }
+        .desktop-text-small {
+            font-size: 1.125rem;
+        }
+        .container {
+            width: 1140px;
+        }
+    }
+    
+    body,
+    .navbar {
+        max-width: 1366px;
+        margin: 0 auto;
+        font-family: MotivaSans;
+        box-sizing: content-box;
+        background-color: transparent;
+    }
+    
+    .container,
+    .row {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    button {
+        border: none;
+        border-radius: 5px;
+        padding: 3px 30px;
+    }
+    
+    .color-button-blue {
+        background-color: #2196f3;
+    }
+    
+    .color-button-white {
+        background-color: #f2f2f2;
+    }
+    
+    .color-button-black {
+        background-color: #000000;
+    }
+    
+    .color-button-pink {
+        background-color: #bc4595;
+    }
+    
+    .color-button-transparent {
+        background-color: transparent;
+    }
+    
+    .bi-headset {
+        margin-left: 10px;
+    }
+    
+    .color-text-blue {
+        color: #2196f3;
+    }
+    
+    .color-text-pink {
+        color: #bc4595;
+    }
+    
+    .color-text-white {
+        color: #f2f2f2;
+    }
+    
+    .color-text-black {
+        color: #000000;
+    }
+    
+    .weight-text-600 {
+        font-weight: 600;
+    }
+    
+    .weight-text-bold {
+        font-weight: bold;
+    }
+    /*** Navbar ***/
+    
+    .wrapper-header {
+        background: rgb(120, 54, 144);
+        background: linear-gradient(90deg, rgba(120, 54, 144, 1) 0%, rgba(188, 69, 149, 1) 62%, rgba(255, 138, 101, 1) 100%);
+    }
+    
+    .navbar {
+        height: 80px;
+    }
+    
+    .nav-link,
+    .menu-bottom-bar {
+        text-transform: uppercase;
+    }
+    
+    .navbar-nav {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 120px;
+        width: 80%;
+    }
+    
+    .wrapper-brand {
+        width: 200px;
+    }
+    
+    .nav-item {
+        width: 160px;
+        color: #000000;
+    }
+    
+    .nav-item a {
+        color: #000000;
+        transition: .2s;
+    }
+    
+    .nav-item a:hover {
+        color: #f2f2f2;
+    }
+    
+    .wrapper-nav-button {
+        display: flex;
+        flex-direction: row;
+        width: 350px;
+    }
+    
+    .nav-button a {
+        color: #f2f2f2;
+        transition: .2s;
+    }
+    
+    .nav-button a:hover {
+        color: #000000;
+    }
+    
+    .menu-bottom-bar {
+        display: block;
+        width: 100%;
+        height: 30px;
+        text-align: right;
+        padding: 0 113px;
+        background-color: rgba(72, 72, 72, .16);
+    }
+    
+    .menu-bottom-bar p {
+        margin-right: 100px;
+    }
+    /*** Carousel ***/
+    
+    .carousel {
+        display: block;
+        height: 550px;
+    }
+    
+    .carousel-item-content {
+        display: flex;
+        position: relative;
+    }
+    
+    .carousel-item-description {
+        display: flex;
+        flex-direction: column;
+        padding: 0 113px;
+        width: 80%;
+        color: white;
+        position: relative;
+    }
+    
+    .carousel-buttons {
+        margin-top: 50px;
+    }
+    
+    .carousel-item-image {
+        display: block;
+        height: 120%;
+        right: 60px;
+        bottom: -130px;
+        position: absolute;
+    }
+    
+    .carousel-item-image img {
+        height: 100%;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        background-color: transparent;
+        border: none;
+    }
+    /*** Section Break Bar ***/
+    
+    .section-break-bar-wrapper {
+        opacity: .2;
+        overflow: hidden;
+        margin: 10px 0 0 0;
+    }
+    
+    .break-icon-bar {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        margin-left: -30px;
+        overflow: hidden;
+    }
+    
+    .break-icon-bar-row {
+        display: flex;
+        flex-wrap: no-wrap;
+    }
+    
+    .break-icon-bar img,
+    .section-switch-list-item img {
+        width: 40px;
+        height: 40px;
+        border-radius: 20%;
+        padding: 3px;
+        margin: 20px;
+        filter: drop-shadow(0 8px 8px rgba(72, 72, 72, 012));
+    }
+    
+    .break-icon-bar img {
+        margin: 20px 25px;
+    }
+    /*** Section Rated ***/
+    
+    .section-rated {
+        margin: 20px 0;
+        width: 100%;
+        padding: 0 113px;
+    }
+    
+    .section-rated-container {
+        display: flex;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .section-rated-wrapper-image,
+    .section-rated-wrapper-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section-rated-wrapper-text {
+        display: block;
+        width: 100%;
+        left: 0;
+        padding-top: 50px;
+    }
+    
+    .section-rated-container img {
+        height: 280px;
+        padding-right: 20px;
+    }
+    /*** Section Switch ***/
+    
+    .section-switch-wrapper-icon {
+        background-color: #d6f0ff;
+        position: relative;
+    }
+    
+    .section-switch-list {
+        display: flex;
+        overflow: hidden;
+        flex-wrap: nowrap;
+        position: relative;
+        justify-self: center;
+        margin: 10px 0;
+    }
+    
+    .section-switch-list-item {
+        display: flex;
+        justify-content: center;
+        word-wrap: none;
+        flex-wrap: nowrap;
+        align-items: center;
+        height: 50px;
+        min-width: 265px;
+    }
+    
+    .section-switch-wrapper-icon::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        right: 0;
+        margin-top: -40px;
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-right: 900px solid #d6f0ff;
+    }
+    
+    .section-switch-button a {
+        color: #f2f2f2;
+    }
+    
+    .section-switch-button-right a {
+        color: #000000;
+    }
+    
+    .section-switch-button a:hover {
+        color: #000000;
+    }
+    
+    .section-switch-list-button {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        bottom: -30px;
+        z-index: 9999;
+    }
+    /*** Section Service Available ***/
+    
+    .section-service-available {
+        padding: 0 113px;
+        text-align: right;
+        margin-top: 170px;
+    }
+    
+    .section-service-available img {
+        display: block;
+        left: 60px;
+        top: -100px;
+        height: 110%;
+    }
+    /*** Section Ofer ***/
+    
+    .section-ofer {
+        margin-top: 20px;
+        height: auto;
+        min-height: 800px;
+        padding: 0 113px;
+    }
+    
+    .section-ofer-icon-wrapper {
+        display: flex;
+        flex-direction: column;
+        border-radius: 10%;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: 120px;
+        margin: 15px;
+        border: 1px solid grey;
+    }
+    
+    .section-ofer-icon-wrapper p {
+        font-size: 12px;
+    }
+    
+    .section-service {
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+    
+    .section-service img {
+        height: 350px;
+    }
+    
+    .section-ofer-phone-button a {
+        color: #f2f2f2;
+        transition: .2s;
+    }
+    
+    .section-ofer-phone-button a:hover {
+        color: #000000;
+    }
+    /*** Section Help ***/
+    
+    .section-help,
+    .section-help-header,
+    .section-help-contact,
+    .section-help-card {
+        background-color: #0a473d;
+        color: #f2f2f2;
+    }
+    
+    .section-help-contact {
+        height: 600px;
+    }
+    
+    .section-help-header::after {
+        content: '';
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        background-color: #0a473d;
+        transform: rotate(45deg);
+        right: 48%;
+        margin-bottom: -120px;
+    }
+    
+    .section-help {
+        height: auto;
+        background-color: #cef7dc;
+    }
+    
+    .section-help-header {
+        height: 140px;
+        position: relative;
+    }
+    
+    .section-help-header p {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .section-help-content {
+        height: 100%;
+        margin-top: 90px;
+        justify-content: center;
+    }
+    
+    .section-help-card {
+        padding-top: 40px;
+        align-self: center;
+        color: #000000;
+        background-color: #f2f2f2;
+        height: 500px;
+        width: 350px;
+        margin: 0 10px 90px 10px;
+    }
+    
+    .section-help-card-body {
+        margin-top: 20px;
+    }
+    
+    .section-help-contact {
+        height: 300px;
+    }
+    
+    .section-help-contact-card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 75px;
+    }
+    
+    .section-help-card button {
+        margin-top: 30px;
+        padding: 5px 10px;
+        background-color: #ff8a65;
+    }
+    
+    .section-help-card button a {
+        transition: .2s;
+        color: #f2f2f2;
+        background-color: #ff8a65;
+    }
+    
+    .section-help-card button a:hover {
+        color: #000000
+    }
+    /*** Section HelpDesk ***/
+    
+    .section-helpdesk {
+        margin: 70px 0 70px -15px;
+        padding: 0 113px;
+    }
+    
+    .section-helpdesk-row {
+        margin-bottom: 20px;
+    }
+    
+    .section-helpdesk-card {
+        border: none;
+    }
+    /*** Footer ***/
+    
+    footer {
+        align-content: center;
+        padding: 0 200px;
+        background-color: #000000;
+        color: #f2f2f2;
+        height: 120px;
+    }
+    
+    .footer-wrapper {
+        display: flex;
+        height: 100%;
+    }
+    
+    .footer-brand {
+        display: flex;
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .footer-content {
+        display: flex;
+        width: 100%;
+        justify-content: left;
+        flex-direction: column;
+        align-self: center;
+    }
+    
+    .footer-content-link {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .footer-icon {
+        margin-right: 7px;
+    }
+    
+    .footer-button,
+    .footer-button a {
+        background-color: #ff8a65;
+    }
+    
+    .footer-button {
+        margin-top: 15px;
+        padding: 5px 30px;
+    }
+    
+    .footer-button a {
+        transition: .2s;
+        color: #000000;
+    }
+    
+    .footer-button a:hover {
+        color: #f2f2f2;
+    }

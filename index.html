@@ -1,61 +1,546 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>webArray - Website</title>
+    <title>WebArray - New website</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
-
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
-        rel="stylesheet">
-
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+    <link rel="shortcut icon" href="img/olx-200-200.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    
+    <div class="wrapper-header">
+        <section class="menu">
+            <nav class="navbar navbar-expand-lg " style="background-color: rgba(72,72,72,.12); padding: 0 113px;">
+                <div class="wrapper-brand">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/Logo.png" alt="Logo WebArray" height="40" /></a>
+                </div>
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
-            class="bi bi-arrow-up"></i></a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+                <div class="navbar-collapse collapse " id="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item desktop-text-small"><a href="#" class="nav-link">Features</a></li>
+                        <li class="nav-item desktop-text-small"><a href="#" class="nav-link">Devices</a></li>
+                        <li class="nav-item desktop-text-small"><a href="#" class="nav-link">Pricing</a></li>
+                    </ul>
+                    <div class="d-flex wrapper-nav-button"><button class="color-button-pink color-text-white nav-button desktop-standard-button-text-size"><a href="#" >Get A Quote</a></button></div>
+                </div>
 
+            </nav>
+            <div class="menu-bottom-bar">
+                <p><span style="font-weight: 800;">sales:</span> 000 000</p>
+            </div>
+        </section>
+        <section class="section-carousel ">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" style="height: 100%;">
+                    <div class="carousel-item active">
+                        <div class="carousel-item-content">
+                            <div class=" carousel-item-description" style="margin-left: 20px;">
+                                <div style="margin-top: 90px; ">
+                                    <h2>Build better connections and deliver amazing customs experiences.</h2>
+                                </div>
+                                <div class=" carousel-buttons ">
+                                    <button class="color-button-black color-text-white desktop-bigger-button-text-size" style="margin-right: 20px">Start now</button>
+                                    <button class="color-text-black color-button-transparent desktop-bigger-button-text-size">Start now</button></div>
+                            </div>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+                        </div>
+                        <div class="carousel-item-image ">
+                            <img src=" img/HeaderImageWoman.png " alt="Woman with phone in header " /></div>
+                    </div>
+                </div>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+                <button class="carousel-control-prev " type="button " data-target="#carouselExampleControls " data-slide="prev ">
+    <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+    <span class="sr-only ">Previous</span>
+  </button>
+                <button class="carousel-control-next " type="button " data-target="#carouselExampleControls " data-slide="next ">
+    <span class="carousel-control-next-icon " aria-hidden="true "></span>
+    <span class="sr-only ">Next</span>
+  </button>
+            </div>
+    </div>
+    </section>
+    </div>
+    <section class="section-break-bar">
+        <div class="section-break-bar-wrapper">
+            <div class="break-icon-bar">
+                <div class="break-icon-bar-row">
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: green; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: purple; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: green; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: blue; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: green; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: orange; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: red; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: orange; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: purple; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: green; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: blue; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: green; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: orange; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: red; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: orange; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: orange; " />
+                </div>
+                <div class="break-icon-bar-row" style="margin-left: 40px;margin-top: -20px">
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: purple; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: green; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: blue; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: green; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: orange; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: red; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: orange; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: purple; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: green; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: blue; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: green; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: orange; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: red; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: orange; " />
+                    <img src="img/GlobeIcon.png" alt="Kula ziemska" style=" background-color: orange; " />
+
+                </div>
+            </div>
+
+    </section>
+    <section class="section-rated">
+        <div class="section-rated-container">
+            <div class="col section-rated-wrapper-text">
+                <h3>Top Rated</h3>
+                <h3 class="color-text-pink">Cloud Phone System</h3>
+                <p class="desktop-text-small">Made for business owners, not IT wizard</p>
+                <div class="d-flex" style="margin-top:40px;"><button class="color-button-pink color-text-white desktop-standard-button-text-size">Let's get started</button>
+                    <button class="color-button-transparent color-text-pink desktop-standard-button-text-size">Get More Info</button></div>
+            </div>
+
+            <div class="section-rated-wrapper-image">
+                <img src=" img/LaptopPhone.png " alt="Woman with phone in header " class="d-block h-60 align-self-center" /></div>
+        </div>
+
+    </section>
+    <section class="section-helpdesk">
+        <div class="container d-block ">
+            <div class="row d-flex section-helpdesk-row">
+                <div class="col ">
+                    <div class="card section-helpdesk-card">
+                        <i class='bi bi-headset' style="color: #2196f3; font-size: 40px"></i>
+                        <div class="card-body ">
+                            <h5 class="card-title weight-text-600">Never Miss a Call</h5>
+                            <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card section-helpdesk-card">
+                        <i class='bi bi-headset' style="color: #bc4595; font-size: 40px"></i>
+                        <div class="card-body ">
+                            <h5 class="card-title weight-text-600">Never Miss a Call</h5>
+                            <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card section-helpdesk-card">
+                        <i class='bi bi-headset' style="color: #2196f3; font-size: 40px"></i>
+                        <div class="card-body ">
+                            <h5 class="card-title weight-text-600">Never Miss a Call</h5>
+                            <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex ">
+                <div class="col ">
+                    <div class="card section-helpdesk-card">
+                        <i class='bi bi-headset' style="color: #bc4595; font-size: 40px"></i>
+                        <div class="card-body ">
+                            <h5 class="card-title weight-text-600">Never Miss a Call</h5>
+                            <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card section-helpdesk-card">
+                        <i class='bi bi-headset' style="color: #2196f3; font-size: 40px"></i>
+                        <div class="card-body ">
+                            <h5 class="card-title weight-text-600">Never Miss a Call</h5>
+                            <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card section-helpdesk-card">
+                        <i class='bi bi-headset' style="color: #bc4595; font-size: 40px"></i>
+                        <div class="card-body ">
+                            <h5 class="card-title ">Never Miss a Call</h5>
+                            <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-switch">
+        <div>
+            <div class="d-flex " style="height: 300px; background-color: #007ad8; position: relative; margin: 70px 70px -130px 70px; z-index: 9999;">
+                <div class="d-flex" style="margin-bottom: -8px; margin-top:-8px">
+                    <img src="img/PhoneCTA.png " alt="Słuchawka telefonu " style="height:100%" />
+                </div>
+                <div style="display: flex; flex-direction: column; height: 100%; width: 60%; padding-top: 50px; margin-left: -180px;">
+                    <div style="align-self: flex-end;">
+                        <h3 style="margin-left: 20px;">Switch Your Old Phone</h3>
+                        <h3 class="color-text-white">To A New Phone System</h3>
+                    </div>
+                    <div style="align-self: flex-end;margin-top:20px ">
+                        <button class="color-button-transparent desktop-standard-button-text-size" style="margin-right: 40px;"><a href="# " class="color-text-white">Contact Us</a></button>
+                        <button class="color-button-white color-text-black desktop-standard-button-text-size section-switch-button-right"><a href="# ">Let's get started</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-switch-wrapper-icon ">
+            <div style="display: flex; position: relative; flex-direction: column; width: 100%; padding: 170px 0 50px 0">
+                <div>
+                    <div class="section-switch-list ">
+                        <div class="section-switch-list-item " style="margin-left: -130px; ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: blue; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Voicemail</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: blue; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Call Queing</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: green; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Call Recording</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: orange; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Voicemail</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: red; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Short Numbers</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: purple; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Business Hours</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="section-switch-list ">
+                        <div class="section-switch-list-item " style="margin-left:-5px; ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: blue; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Fax To Email</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: purple; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Business Hours</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: blue; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Calling Masking</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: green; " /></div>
+                            <div style="margin-left: -5px; display: block; ">3-Way Calling</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: orange; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Recording</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="section-switch-list ">
+                        <div class="section-switch-list-item " style="margin-left:-130px; ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: blue; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Way Calling</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: blue; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Call Queing</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: orange; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Call Recording</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: red; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Voicemail</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: blue; " />
+                            </div>
+                            <div style="margin-left: -5px; display: block; ">Short Numbers</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: purple; " />
+                            </div>
+                            <div style="margin-left: -5px; display: block; ">Business Hours</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="section-switch-list ">
+                        <div class="section-switch-list-item " style="margin-left:-5px; ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: red; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Fax To Email</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: purple; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Business Hours</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: blue; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Calling Masking</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: green; " /></div>
+                            <div style="margin-left: -5px; display: block; ">3-Way Calling</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: red; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Recording</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="section-switch-list ">
+                        <div class="section-switch-list-item " style="margin-left: -130px; ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: red; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Voicemail</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: blue; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Call Queing</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: green; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Call Recording</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: red; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Voicemail</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: orange; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Short Numbers</div>
+                        </div>
+                        <div class="section-switch-list-item ">
+                            <div><img src="img/GlobeIcon.png " alt="Kula ziemska " style=" background-color: blue; " /></div>
+                            <div style="margin-left: -5px; display: block; ">Call Queing</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-switch-list-button">
+                    <a href="# "><button class="color-button-blue color-text-white section-switch-button desktop-bigger-button-text-size">Let's get started</button> </a></div>
+            </div>
+        </div>
+    </section>
+    <section class="section-service-available">
+        <div class="container ">
+            <div class="row " style="position:relative">
+                <div class="col ">
+                    <img src="img/Globe.png " alt="Kula ziemska " style="position: absolute;" /> </div>
+                <div class="col ">
+                    <h3>Service Available</h3>
+                    <h3 style="margin-bottom: 30px;"><span class="color-text-blue ">All Over The World!</span></h3>
+                    <div>
+                        <p class="desktop-text-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel. </p>
+                        <p class="desktop-text-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel. </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-ofer">
+        <div class="row" style="height: 800px;">
+            <div style="width: 50%; height: 100%; margin-top:-40px ">
+                <div style="width: 50%; text-align: left; margin-left: 110px; ">
+                    <h3 class="color-text-blue " style="margin-bottom: -5px;">How We </h3>
+                    <h3 style="margin-bottom: -5px;">Serve Your</h3>
+                    <h3 class="color-text-blue ">Industry</h3>
+                </div>
+                <div style="float: right;">
+                    <div class="row ">
+                        <div class="section-ofer-icon-wrapper ">
+                            <img src="img/Excavator.png " alt="Ikonka z koparką " class="h-50 mx-auto d-block " />
+                            <p class="text-center ">Constructions</p>
+                        </div>
+                        <div class="section-ofer-icon-wrapper ">
+                            <img src="img/Excavator.png " alt="Ikonka z koparką " class="h-50 mx-auto d-block " />
+                            <p class="text-center ">Constructions</p>
+                        </div>
+                        <div class="section-ofer-icon-wrapper ">
+                            <img src="img/Excavator.png " alt="Ikonka z koparką " class="h-50 mx-auto d-block " />
+                            <p class="text-center ">Constructions</p>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="section-ofer-icon-wrapper ">
+                            <img src="img/Excavator.png " alt="Ikonka z koparką " class="h-50 mx-auto d-block " />
+                            <p class="text-center ">Constructions</p>
+                        </div>
+                        <div class="section-ofer-icon-wrapper ">
+                            <img src="img/Excavator.png " alt="Ikonka z koparką " class="h-50 mx-auto d-block " />
+                            <p class="text-center ">Constructions</p>
+                        </div>
+                        <div class="section-ofer-icon-wrapper ">
+                            <img src="img/Excavator.png " alt="Ikonka z koparką " class="h-50 mx-auto d-block " />
+                            <p class="text-center ">Constructions</p>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="section-ofer-icon-wrapper ">
+                            <img src="img/Excavator.png " alt="Ikonka z koparką " class="h-50 mx-auto d-block " />
+                            <p class="text-center ">Constructions</p>
+                        </div>
+                        <div class="section-ofer-icon-wrapper ">
+                            <img src="img/Excavator.png " alt="Ikonka z koparką " class="h-50 mx-auto d-block " />
+                            <p class="text-center ">Constructions</p>
+                        </div>
+                        <div class="section-ofer-icon-wrapper ">
+                            <img src="img/Excavator.png " alt="Ikonka z koparką " class="h-50 mx-auto d-block " />
+                            <p class="text-center ">Constructions</p>
+                        </div>
+                    </div>
+
+                    <div class="row ">
+                        <div class="section-ofer-icon-wrapper ">
+                            <img src="img/Excavator.png " alt="Ikonka z koparką " class="h-50 mx-auto d-block " />
+                            <p class="text-center ">Constructions</p>
+                        </div>
+                        <div class="section-ofer-icon-wrapper ">
+                            <img src="img/Excavator.png " alt="Ikonka z koparką " class="h-50 mx-auto d-block " />
+                            <p class="text-center ">Constructions</p>
+                        </div>
+                        <div class="section-ofer-icon-wrapper ">
+                            <img src="img/Excavator.png " alt="Ikonka z koparką " class="h-50 mx-auto d-block " />
+                            <p class="text-center ">Constructions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="width: 50%;height: 800px">
+                <div class="d-flex " style="width: 100%; position: relative; float: right; height: 100%; clear: both;">
+                    <div style="position: relative; z-index: 9999; ">
+                        <p class="desktop-text-title" style="margin-top: 120px; margin-left: 220px; margin-bottom: -10px;">Constructions?</p>
+                        <p style="margin-left: 240px;" class="desktop-text-title color-text-blue">We got you!</p>
+                        <p style="margin-left: 160px;margin-right: 60px;" class="desktop-text-small">Made for buisness owners, not IT wiz-ards. We can help you set up in minutes. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                        <p style="margin-left: 160px;margin-right: 80px;" class="weight-text-600 desktop-text-small"> Main Advantages</p>
+                        <ul class="desktop-text-small" style="list-style: none; margin-left: 140px; ">
+                            <li><span class='bi bi-check2-circle' style='color:#007ad8'></span> Lorem ipsu dolor sit amet,con-</li>
+                            <li><span class='bi bi-check2-circle' style='color:#007ad8'></span> Lorem ipsu dolor sit amet,</li>
+                            <li><span class='bi bi-check2-circle' style='color:#007ad8'></span> Lorem ipsu dolor sit amet,</li>
+                            <li><span class='bi bi-check2-circle' style='color:#007ad8'></span> Lorem ipsu dolor sit amet,</li>
+                        </ul>
+                        <div style="margin-left: 150px; margin-top: 50px">
+                            <button class="color-button-blue color-text-white section-ofer-phone-button desktop-text-standard"><a href="# " >Let's get started</a></button></div>
+                    </div>
+
+                    <div style=" display:flex;position: absolute; background-color: transparent; width: 100%; justify-content: right; margin-top: 50px">
+                        <img src="img/Phone.png " alt="Ekran telefonu komówrkowego " style="height: 820px; background-color: transparent; width: 450px;bottom: -60px; " />
+                    </div>
+                    <div style="display:block; z-index: 9999; position: absolute;right: -100px; bottom: 0; ">
+                        <img src="img/Guy.png " alt="Robotnik w słuchawkach i kamizelce odblaskowej " style="height: 320px;" /></div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <section class="section-help ">
+        <div class="row align-content-center section-help-header ">
+            <h2 class="text-center " style="z-index: 9999;font-weight: 900;">Let Us Help You!</h2>
+        </div>
+        <div class="row section-help-content ">
+            <div class="card text-center section-help-card ">
+                <img src="img/Rocket.png " class="card-img-top w-50 mx-auto d-block " alt="Obrazek lecącej rakiety ">
+                <div class="card-body section-help-card-body ">
+                    <p class="card-title desktop-text-standard">I'm Just Starting Up</p>
+                    <p class="card-text desktop-text-small">and don't have expirence with cloud phone system</p>
+                    <button class="desktop-standard-button-text-size "><a href="# " >Let's get started</a></button>
+                </div>
+
+            </div>
+            <div class="card text-center section-help-card ">
+                <img src="img/Rocket.png " class="card-img-top w-50 mx-auto d-block " alt="Obrazek lecącej rakiety ">
+                <div class="card-body section-help-card-body ">
+                    <p class="card-title desktop-text-standard">I'm Just Starting Up</p>
+                    <p class="card-text desktop-text-small">and don't have expirence with cloud phone system</p>
+                    <button class="desktop-standard-button-text-size "><a href="# " >Let's get started</a></button>
+                </div>
+
+            </div>
+            <div class="card text-center section-help-card ">
+                <img src="img/Rocket.png " class="card-img-top w-50 mx-auto d-block " alt="Obrazek lecącej rakiety ">
+                <div class="card-body section-help-card-body ">
+                    <p class="card-title desktop-text-standard">I'm Just Starting Up</p>
+                    <p class="card-text desktop-text-small">and don't have expirence with cloud phone system</p>
+                    <button class="desktop-standard-button-text-size "><a href="# " >Let's get started</a></button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section-help-contact ">
+        <div class="section-help-contact-card ">
+            <h3 style="font-weight:bolder ">Still searching?</h3>
+            <p class="card-text desktop-text-standard ">Get yourself a custom phone system, ready for all your needs!</p>
+            <button class="footer-button desktop-standard-button-text-size"><a href="# " >Contact! One Of Our Specialist</a></button>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-wrapper desktop-text-small">
+            <div class="footer-brand ">
+                <img src="img/Logo2.png " alt="Logotyp WebArray " height="40px " />
+            </div>
+            <div class="footer-content ">
+                <div class="footer-content-link ">
+                    <div class="g-col-4 g-col-md-3 ">
+                        <span class='bi bi-cash-stack footer-icon'></span>Pricing
+                    </div>
+                    <div class="g-col-4 g-col-md-3 ">
+                        <span class='bi bi-star footer-icon'></span>Features
+                    </div>
+                    <div class="g-col-4 g-col-md-3 ">
+                        <img src="img/ComputerIcon.png " alt="Ikona komputera " class="footer-icon " style="height: 20px " />Devices
+                    </div>
+                    <div class="g-col-4 g-col-md-3 ">
+                        <span class='bi bi-envelope footer-icon'></span>Contact Us
+                    </div>
+                </div>
+                <div style="display:flex; justify-content: space-around; font-size: 14px;">
+                    <div>&copy; 2022 WebArray All right reserved</div>
+                    <div>
+                        <img src="img/UsaIcon.png " alt="Flaga USA " style="height: 20px " class="footer-icon " />United States | English | USD
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js " integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/ " crossorigin="anonymous ">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js " integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js " integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF " crossorigin="anonymous "></script>
+    <script src="js/main.js "></script>
 </body>
 
 </html>
