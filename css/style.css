@@ -1692,7 +1692,6 @@
                 transform: rotate(45deg);
                 right: 48%;
                 margin-bottom: -140px;
-                z-index: 9999;
             }
             
             .section-help {
