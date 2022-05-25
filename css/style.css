@@ -1204,7 +1204,7 @@
             @media screen and (min-width: 992px) {
                 .section-service-available-wrapper-text,
                 .section-service-available {
-                    background-color: #f3f3f3;
+                    background-color: white;
                 }
                 .section-service-available-wrapper {
                     display: flex;
@@ -1675,6 +1675,7 @@
             }
             
             .section-help-title {
+                display: block;
                 z-index: 9999;
                 font-weight: 900;
             }
